@@ -1,0 +1,74 @@
+.profile {
+    max-width: 400px;
+    margin: auto;
+    padding: 2rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .profile h2 {
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+  
+  .profile form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .profile form button,
+  .profile .delete-btn {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .profile form button {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  .profile .delete-btn {
+    background-color: #dc3545;
+    color: #fff;
+    margin-top: 1rem;
+  }
+  
+
+  /* Profile.css */
+  .profile {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    width: 300px;
+  }
+  
+  .profile-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .close-btn {
+    background: red;
+    color: white;
+    border: none;
+    padding: 5px;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  
+  .delete-btn {
+    background: red;
+    color: white;
+    border: none;
+    padding: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+  }
+  

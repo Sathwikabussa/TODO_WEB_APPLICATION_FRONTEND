@@ -1,0 +1,12 @@
+.profile-page {
+    max-width: 500px;
+    margin: auto;
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  .profile-page h2 {
+    font-size: 1.8rem;
+    margin-bottom: 1.5rem;
+  }
+  

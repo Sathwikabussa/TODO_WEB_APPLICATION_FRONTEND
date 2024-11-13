@@ -1,0 +1,92 @@
+.homepage {
+    text-align: center;
+    padding: 2rem;
+  }
+  
+  .homepage h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .homepage p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+  }
+  
+  .homepage-links a {
+    display: inline-block;
+    margin: 0.5rem;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  .homepage-links a:hover {
+    background-color: #0056b3;
+  }
+  
+  /* HomePage.css */
+.header-right {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    margin-right: 30px;
+    margin-top: 10px;
+  }
+
+  .header-right button{
+    margin-right: 20px;
+    width:98px;
+    height: 36px;
+    background-color: green;
+    border:none;
+    color:#fff;
+    cursor: pointer;
+  }
+
+  .header-right button:hover{
+    border:2px solid green;
+    background-color: #fff;
+    color:green;
+  }
+
+  .icon{
+    width:36px;
+    height:36px;
+    cursor:pointer;
+  }
+  
+  .profile-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .homepage-header h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    overflow: hidden; /* Ensure that text will be hidden when animating */
+    white-space: nowrap; /* Prevent the text from breaking into multiple lines */
+    animation: slideIn 17s linear infinite; /* Apply the animation */
+  }
+  
+  @keyframes slideIn {
+    0% {
+      transform: translateX(-100%); /* Start off-screen to the left */
+    }
+    100% {
+      transform: translateX(100%); /* Move completely off-screen to the right */
+    }
+  }
